@@ -1,10 +1,12 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 
 .header-section {
     background-image: url(images/donation7.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     color: rgb(251, 248, 247);
     padding-bottom: 200px;
@@ -39,9 +41,11 @@ body {
 
 
 .flexible-container {
+
     color: rgb(80, 75, 75);
     font-size: 40px;
     display: flex;
+    justify-content: center;
     margin-left: 200px;
     margin-right: 200px;
 
@@ -72,11 +76,16 @@ body {
     border-left: none;
     border-right: none;
     border-bottom: 1px solid rgb(179, 178, 178);
+    padding-bottom: 20px;
     text-align: center;
-    padding: 15px 250px 15px 300px;
+    width: 1060px;
     margin: 50px;
 }
 
+.input:focus {
+    outline: none;
+
+}
 
 
 .new-flexible-container {
