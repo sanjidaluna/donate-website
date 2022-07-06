@@ -1,22 +1,31 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
 .header-section {
     background-image: url(images/donation7.jpg);
     background-repeat: no-repeat;
-    color: white;
+    color: rgb(251, 248, 247);
     padding-bottom: 200px;
     padding-top: 150px;
     font-size: 27px;
     text-align: center;
 }
 
+.paragraph {
+    color: gray;
+}
+
 .head {
-    font-size: 60px;
+    font-size: 80px;
 
 }
 
 .link-button {
     color: white;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 15px 20px;
     border-radius: 10px;
     background-color: rgb(243, 76, 76);
 }
@@ -58,15 +67,17 @@
 .input {
     font-size: 25px;
 
-    color: grey;
+    color: rgb(161, 157, 157);
+    border-top: none;
     border-left: none;
     border-right: none;
-    border-top: none;
-    border-bottom: 1px solid rgb(164, 160, 160);
+    border-bottom: 1px solid rgb(179, 178, 178);
     text-align: center;
-    padding: 15px 200px;
+    padding: 15px 250px 15px 300px;
     margin: 50px;
 }
+
+
 
 .new-flexible-container {
     display: flex;
@@ -104,4 +115,75 @@
 .box3 {
     font-size: 18px;
     background-color: rgb(245, 231, 181);
+}
+
+.form-section {
+    background-color: rgb(250, 242, 214);
+    margin: 100px 200px;
+    padding: 100px 150px;
+
+
+}
+
+.finput-add {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.email {
+    background-color: rgb(203, 198, 198);
+    padding: 20px 50px;
+    margin-left: 150px;
+    color: gray;
+    font-size: 20px;
+    font-weight: 2000px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.button {
+    margin-left: o;
+    background-color: rgb(246, 84, 84);
+    padding: 20px 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 2000px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+
+footer h1 {
+    color: rgb(228, 87, 87);
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+}
+
+.help {
+    font-size: 15px;
+    padding: 20px 20px;
+    border: 1px solid blue;
+
+    width: 50%;
+    background-color: rgb(241, 219, 179);
+}
+
+.how-donation {
+    box-shadow: 10px 10px 40px rgba(78, 103, 216, 0.911);
+
+}
+
+.how-donation-head {
+
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(49, 2, 2);
+
 }
